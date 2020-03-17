@@ -29,4 +29,18 @@ Now we will copy the index.html page, delete and create a new index.html file
 
 ```cp index.html index-orginal.html```
 
+```sudo rm index.html```
 
+```sudo nano index.html```
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple page</title>
+  </head>
+  <body>
+    This is your simple webpage
+  </body>
+</html>
+```
