@@ -22,3 +22,11 @@ Install Apache2
 After the install you should be able to see the Apache2 Debian Default page. 
 
 Goto ```http://YOUR RPI IP ADDRESS```
+
+Now we will copy the index.html page, delete and create a new index.html file
+
+```cd /var/www/html```
+
+```cp index.html index-orginal.html```
+
+
