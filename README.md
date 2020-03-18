@@ -40,7 +40,27 @@ Now we will copy the index.html page, delete and create a new index.html file
     <title>Simple page</title>
   </head>
   <body>
-    This is your simple webpage
+    You now have your own webpage
+    <p></p>
+    <a href="main.html">Link to your second webpage</a>
   </body>
 </html>
 ```
+
+Now create another webpage in the same folder. We will call this main.html. We should still be in /var/www/html
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>This is your second webpage</title>
+  </head>
+  <body>
+    This is the body of main.html
+  </body>
+</html>
+```
+
+Now navigate to web browser and enter ```http://YOUR RPI IP ADDRESS```
+
+You should see the first webpage you created with a link to the second page.
